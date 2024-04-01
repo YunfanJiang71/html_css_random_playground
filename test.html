@@ -1,0 +1,38 @@
+<!-- command k c, 
+1. background color 
+2. create a div 
+3. adjust size, color, corner 
+4. add text
+5. adjust position and size -->
+
+<div class="container">
+    <div class = "box"> Hello World</div>
+    <div class = "box"> Hello World2</div>
+    <div class = "box"> Hello World3</div>
+</div>
+
+
+<style>
+    .container{
+        display: flex;
+    }
+    .box{
+        width: 350px;
+        height: 350px;
+        background-color: burlywood;
+        border: 3px solid black;
+        margin-left: 30px;
+        margin-top: 30px;
+        border-radius: 20px;
+        
+        /* Horizontal offset, vertical offset, blur radius*/
+        
+        box-shadow: gray 0px 8px 20px;
+        font-size: 40px;
+        color: aquamarine;
+        text-align: center;
+        line-height:350px;
+
+    }  
+
+</style>
